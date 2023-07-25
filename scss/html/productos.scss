@@ -1,0 +1,104 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+
+.main-productos{
+    height: 400vh;
+    display: grid;
+    
+
+    .titulo-uno{
+        text-align: center;
+      
+    }
+    .sector-uno{
+        height: 150vh;
+        margin-bottom: 2rem;
+        
+        .mate{
+            display: grid;
+
+            .imagen{
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                transition: 0.5;
+
+                img{
+                    object-fit: cover;
+                    border-radius: 10px;
+                    transition: 0.5;
+                }
+                img:hover{
+                    transition: 0.5s;
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        div{
+            .boton{
+              @extend %boton;  
+            }
+            p{
+                margin: 1rem 3rem 1rem 3rem;
+                justify-self: center;
+                align-self: center; 
+                font-weight: 600;
+                font-size: 1.5rem; 
+            }
+            
+        }
+    }
+    
+    .titulo-dos{
+        text-align: center;
+        
+    }
+
+    .sector-dos{
+        height: 150vh;
+
+        .sets{
+            display: grid;
+            justify-items: center;
+            flex-direction: column;
+
+            .imagen{
+                display: grid;
+                justify-items: center;
+                align-items: center;
+               
+
+                img{
+                   object-fit: cover; 
+                   border-radius: 10px;
+                }
+                img:hover{
+                    transition: 0.5s;
+                    transform: scale(1.1);
+                }
+            }
+        } 
+        
+        div{
+            .boton{
+                @extend %boton;  
+              }
+              
+            p{
+                margin: 1rem 3rem 1rem 3rem;
+                justify-self: center;
+                align-self: center; 
+                font-weight: 600;
+                font-size: 1.5rem; 
+            }
+        }
+    }
+    
+}
+
+
+        
+

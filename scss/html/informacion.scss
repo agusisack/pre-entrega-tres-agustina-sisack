@@ -1,0 +1,42 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+//estilos de informacion
+
+.main-informacion{
+    margin: 2rem 0rem 5rem 3rem;
+    height: 70vh;
+
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         text-align: justify;
+        margin: 2rem 0rem 1rem 1rem; 
+    }
+    form{
+        fieldset{
+            display: grid;
+            gap: 1rem;
+
+            legend{
+
+                text-align: justify;
+                margin: 2rem 1rem 1rem 0rem;
+                font-weight: 400;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+            }
+
+        }
+    }
+
+    
+    ul{
+    
+        li{
+            text-align: justify;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+}
+
+

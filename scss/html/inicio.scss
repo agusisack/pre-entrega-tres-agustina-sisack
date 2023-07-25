@@ -1,0 +1,122 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+@import "../utilidades/media-queries";
+
+//estilos de inicio
+
+body{
+    display: block;
+
+    header{
+    background-color: $color-principal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        h1{
+        background-color: $color-secundario;
+        font-weight: 100;
+        text-align: center;
+        font-size: 2.2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin-top: auto;
+        }
+
+        .menu{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+           
+
+            .submenu{
+                .logo{
+                    width: 50%;
+                    height: 50%;
+                    margin: 3rem;
+                    text-align: center;
+                   
+                }
+            }
+        }
+
+    }
+  
+}
+
+main{
+    
+    margin-top: 2rem;
+    height: 90vh;
+
+    
+    .container{
+        font-size: 1.2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-weight: 200;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+     
+     
+        .texto-dos{
+            display: none;
+        }
+    }
+
+    .container-dos{
+         display: flex;
+         justify-content: center;
+        
+         img{
+            object-fit: cover;
+            padding: 2rem 2rem 3rem 2rem;
+        }
+        
+    }
+}
+footer{
+    background-color: $color-secundario;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+    .envios{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+         ul{
+            li{
+             font-size: 1rem;
+             list-style: none;
+            }
+        }
+
+    .derechos{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+
+        p{
+        font-size: 0.8rem;
+        text-align: center;
+        
+        }
+    }  
+
+    .redes{
+        p{ 
+         font-size: 1.5rem; 
+         font-weight: 100;
+        }
+        .logo{
+         gap: 2rem;
+        }
+    }
+
+      
+}   
+
+
+

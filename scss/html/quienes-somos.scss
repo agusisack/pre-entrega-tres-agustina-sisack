@@ -1,0 +1,53 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+//estilos de quienes somos
+
+.main-quienes-somos{
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    .quien-soy{
+        height: 40vh;
+        text-align: center;
+        display: grid;
+
+        .descripcion{
+        font-size: 2rem;
+        font-size: 200;
+        text-align: center;
+        }
+        .texto-unoo{
+        font-size: 1.1rem;
+        margin: 0rem 3rem 0rem 3rem;
+        }
+        
+    }
+
+    .alpargata{
+         display: none;
+    }
+
+    .como-se-creo{
+        text-align: center;
+        display: grid;
+
+        .creacion{
+        font-size: 2rem;
+        font-size: 200;
+        text-align: center;
+        }
+        .texto-doss{
+        font-size: 1.1rem;
+        margin: 0rem 2rem 0rem 2rem;
+        }
+        
+    }
+    .rosa{
+        display: none;
+    }
+}
+
+
+

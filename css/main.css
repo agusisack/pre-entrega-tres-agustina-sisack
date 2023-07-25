@@ -1,0 +1,451 @@
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+.main-cuidados {
+  margin: 3rem 1rem 2rem 1rem;
+  height: 70vh; }
+  .main-cuidados h2 {
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem; }
+  .main-cuidados ol li {
+    text-align: justify;
+    padding: 0rem 0rem 0rem 1rem; }
+
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+.main-informacion {
+  margin: 2rem 0rem 5rem 3rem;
+  height: 70vh; }
+  .main-informacion h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin: 2rem 0rem 1rem 1rem; }
+  .main-informacion form fieldset {
+    display: grid;
+    gap: 1rem; }
+    .main-informacion form fieldset legend {
+      text-align: justify;
+      margin: 2rem 1rem 1rem 0rem;
+      font-weight: 400;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .main-informacion ul li {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+@media screen and (min-width: 600px) {
+  main {
+    height: 100vh; }
+    main .container {
+      display: grid; }
+      main .container .texto-dos {
+        display: block; }
+    main .container-dos {
+      display: grid; }
+  .main-productos {
+    height: 300vh; }
+    .main-productos .sector-uno {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+      height: 100vh; }
+      .main-productos .sector-uno .mate {
+        display: grid; }
+    .main-productos .sector-dos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+      height: 100vh;
+      gap: 3rem; }
+      .main-productos .sector-dos .sets {
+        display: grid; }
+  .main-quienes-somos {
+    height: 150vh; }
+    .main-quienes-somos .quien-soy {
+      height: 70vh;
+      display: grid; }
+      .main-quienes-somos .quien-soy .alpargata {
+        display: block; }
+        .main-quienes-somos .quien-soy .alpargata img {
+          justify-items: center;
+          align-items: center;
+          object-fit: cover;
+          border-radius: 10px; }
+    .main-quienes-somos .como-se-creo {
+      height: 70vh;
+      display: grid; }
+      .main-quienes-somos .como-se-creo .rosa {
+        display: block; }
+        .main-quienes-somos .como-se-creo .rosa img {
+          justify-items: center;
+          align-items: center;
+          object-fit: cover;
+          border-radius: 10px; }
+  .main-informacion {
+    height: 50vh; }
+    .main-informacion .todo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 70vh; } }
+
+@media screen and (min-width: 1024px) {
+  main {
+    height: 80vh; }
+    main .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      main .container .texto-dos {
+        display: block;
+        flex-direction: column; }
+    main .container-dos {
+      display: grid; }
+      main .container-dos .mates img {
+        height: 50vh; }
+  .main-productos {
+    height: 150vh; }
+    .main-productos .sector-uno {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      height: 50vh; }
+      .main-productos .sector-uno .mate {
+        display: grid; }
+    .main-productos .sector-dos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      height: 50vh;
+      gap: 3rem; }
+      .main-productos .sector-dos .sets {
+        display: grid; }
+    .main-productos .footer {
+      height: 50vh; }
+  .main-cuidados {
+    height: 50vh; }
+    .main-cuidados .cuidados {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem; }
+      .main-cuidados .cuidados .curado ol li {
+        padding-left: 5rem; }
+      .main-cuidados .cuidados .curado-dos ul li {
+        padding-left: 5rem; }
+  .main-cuidados .cuidados .curado ol li {
+    padding-left: 5rem; }
+  .main-cuidados .cuidados .curado-dos ul li {
+    padding-left: 5rem; }
+  .main-informacion {
+    height: 50vh;
+    display: grid;
+    justify-content: center; }
+  .main-quienes-somos {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+body {
+  display: block; }
+  body header {
+    background-color: #e0d1d5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    body header h1 {
+      background-color: #b9a7a7;
+      font-weight: 100;
+      text-align: center;
+      font-size: 2.2rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      margin-top: auto; }
+    body header .menu {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      font-size: 1.5rem; }
+      body header .menu .submenu .logo {
+        width: 50%;
+        height: 50%;
+        margin: 3rem;
+        text-align: center; }
+
+main {
+  margin-top: 2rem;
+  height: 90vh; }
+  main .container {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    main .container .texto-dos {
+      display: none; }
+  main .container-dos {
+    display: flex;
+    justify-content: center; }
+    main .container-dos img {
+      object-fit: cover;
+      padding: 2rem 2rem 3rem 2rem; }
+
+footer {
+  background-color: #b9a7a7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: space-around; }
+  footer .envios {
+    font-size: 1.5rem;
+    font-weight: 100; }
+  footer ul li {
+    font-size: 1rem;
+    list-style: none; }
+  footer .derechos {
+    display: flex;
+    justify-content: end;
+    flex-direction: column; }
+    footer .derechos p {
+      font-size: 0.8rem;
+      text-align: center; }
+  footer .redes p {
+    font-size: 1.5rem;
+    font-weight: 100; }
+  footer .redes .logo {
+    gap: 2rem; }
+
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+.main-productos {
+  height: 400vh;
+  display: grid; }
+  .main-productos .titulo-uno {
+    text-align: center; }
+  .main-productos .sector-uno {
+    height: 150vh;
+    margin-bottom: 2rem; }
+    .main-productos .sector-uno .mate {
+      display: grid; }
+      .main-productos .sector-uno .mate .imagen {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        transition: 0.5; }
+        .main-productos .sector-uno .mate .imagen img {
+          object-fit: cover;
+          border-radius: 10px;
+          transition: 0.5; }
+        .main-productos .sector-uno .mate .imagen img:hover {
+          transition: 0.5s;
+          transform: scale(1.1); }
+    .main-productos .sector-uno div p {
+      margin: 1rem 3rem 1rem 3rem;
+      justify-self: center;
+      align-self: center;
+      font-weight: 600;
+      font-size: 1.5rem; }
+  .main-productos .titulo-dos {
+    text-align: center; }
+  .main-productos .sector-dos {
+    height: 150vh; }
+    .main-productos .sector-dos .sets {
+      display: grid;
+      justify-items: center;
+      flex-direction: column; }
+      .main-productos .sector-dos .sets .imagen {
+        display: grid;
+        justify-items: center;
+        align-items: center; }
+        .main-productos .sector-dos .sets .imagen img {
+          object-fit: cover;
+          border-radius: 10px; }
+        .main-productos .sector-dos .sets .imagen img:hover {
+          transition: 0.5s;
+          transform: scale(1.1); }
+    .main-productos .sector-dos div p {
+      margin: 1rem 3rem 1rem 3rem;
+      justify-self: center;
+      align-self: center;
+      font-weight: 600;
+      font-size: 1.5rem; }
+
+.main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
+  background-color: #e0d1d5;
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15%;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  justify-self: center;
+  align-self: center; }
+
+.main-quienes-somos {
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .main-quienes-somos .quien-soy {
+    height: 40vh;
+    text-align: center;
+    display: grid; }
+    .main-quienes-somos .quien-soy .descripcion {
+      font-size: 2rem;
+      font-size: 200;
+      text-align: center; }
+    .main-quienes-somos .quien-soy .texto-unoo {
+      font-size: 1.1rem;
+      margin: 0rem 3rem 0rem 3rem; }
+  .main-quienes-somos .alpargata {
+    display: none; }
+  .main-quienes-somos .como-se-creo {
+    text-align: center;
+    display: grid; }
+    .main-quienes-somos .como-se-creo .creacion {
+      font-size: 2rem;
+      font-size: 200;
+      text-align: center; }
+    .main-quienes-somos .como-se-creo .texto-doss {
+      font-size: 1.1rem;
+      margin: 0rem 2rem 0rem 2rem; }
+  .main-quienes-somos .rosa {
+    display: none; }
+
+@media screen and (min-width: 600px) {
+  main {
+    height: 100vh; }
+    main .container {
+      display: grid; }
+      main .container .texto-dos {
+        display: block; }
+    main .container-dos {
+      display: grid; }
+  .main-productos {
+    height: 300vh; }
+    .main-productos .sector-uno {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+      height: 100vh; }
+      .main-productos .sector-uno .mate {
+        display: grid; }
+    .main-productos .sector-dos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+      height: 100vh;
+      gap: 3rem; }
+      .main-productos .sector-dos .sets {
+        display: grid; }
+  .main-quienes-somos {
+    height: 150vh; }
+    .main-quienes-somos .quien-soy {
+      height: 70vh;
+      display: grid; }
+      .main-quienes-somos .quien-soy .alpargata {
+        display: block; }
+        .main-quienes-somos .quien-soy .alpargata img {
+          justify-items: center;
+          align-items: center;
+          object-fit: cover;
+          border-radius: 10px; }
+    .main-quienes-somos .como-se-creo {
+      height: 70vh;
+      display: grid; }
+      .main-quienes-somos .como-se-creo .rosa {
+        display: block; }
+        .main-quienes-somos .como-se-creo .rosa img {
+          justify-items: center;
+          align-items: center;
+          object-fit: cover;
+          border-radius: 10px; }
+  .main-informacion {
+    height: 50vh; }
+    .main-informacion .todo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 70vh; } }
+
+@media screen and (min-width: 1024px) {
+  main {
+    height: 80vh; }
+    main .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      main .container .texto-dos {
+        display: block;
+        flex-direction: column; }
+    main .container-dos {
+      display: grid; }
+      main .container-dos .mates img {
+        height: 50vh; }
+  .main-productos {
+    height: 150vh; }
+    .main-productos .sector-uno {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      height: 50vh; }
+      .main-productos .sector-uno .mate {
+        display: grid; }
+    .main-productos .sector-dos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      height: 50vh;
+      gap: 3rem; }
+      .main-productos .sector-dos .sets {
+        display: grid; }
+    .main-productos .footer {
+      height: 50vh; }
+  .main-cuidados {
+    height: 50vh; }
+    .main-cuidados .cuidados {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem; }
+      .main-cuidados .cuidados .curado ol li {
+        padding-left: 5rem; }
+      .main-cuidados .cuidados .curado-dos ul li {
+        padding-left: 5rem; }
+  .main-cuidados .cuidados .curado ol li {
+    padding-left: 5rem; }
+  .main-cuidados .cuidados .curado-dos ul li {
+    padding-left: 5rem; }
+  .main-informacion {
+    height: 50vh;
+    display: grid;
+    justify-content: center; }
+  .main-quienes-somos {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }

@@ -1,0 +1,22 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+
+.main-cuidados{
+    margin: 3rem 1rem 2rem 1rem;
+    height: 70vh;
+   
+    h2{
+        text-align: center;
+        margin: 2rem 0rem 2rem 0rem; 
+    }
+    ol{
+        li{
+            text-align: justify;
+            padding:0rem 0rem 0rem 1rem;
+
+        }
+    }
+}
+

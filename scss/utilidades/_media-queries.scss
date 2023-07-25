@@ -1,0 +1,210 @@
+
+
+
+//mq de tablet
+
+@media screen and (min-width: 600px){
+    main{
+        height: 100vh;
+
+        .container{
+            display: grid;
+            .texto-dos{
+                display: block;
+            }
+        }
+        .container-dos{
+            display: grid;
+            
+        }
+    }
+
+
+
+    .main-productos{
+    height: 300vh;
+
+        .sector-uno{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: start;
+        height: 100vh;
+        
+
+            .mate{
+                display: grid;
+            }
+        }
+        .sector-dos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: start;
+        height: 100vh;
+        gap: 3rem;
+
+            .sets{
+                display: grid;
+            }
+        }
+    }
+
+
+    .main-quienes-somos{
+        height: 150vh;
+
+        .quien-soy{
+            height: 70vh;
+            display: grid;
+    
+            .alpargata{
+                display: block;
+
+                img{
+                justify-items: center;
+                align-items: center;
+                object-fit: cover;
+                border-radius: 10px;   
+                }
+            }
+        }
+      
+        .como-se-creo{
+
+            height: 70vh;
+            display: grid;
+
+            .rosa{
+                display: block;
+
+                img{
+                justify-items: center;
+                align-items: center;
+                object-fit: cover;
+                border-radius: 10px;
+                }
+            }
+
+        }
+    }
+
+    .main-informacion{
+        height: 50vh;
+
+        .todo{
+            display: grid;
+           grid-template-columns: 1fr 1fr;
+            height: 70vh;
+        }
+    }
+}
+
+
+//mq de desktop
+
+@media screen and (min-width: 1024px){
+
+    main{
+        height: 80vh;
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+           
+            .texto-dos{
+                display: block;
+                flex-direction: column;
+                
+            }
+            
+        }
+        .container-dos{
+            display: grid;
+            .mates{
+                img{
+                    height: 50vh;
+
+                }
+    
+            }
+        }    
+    }
+    .main-productos{
+        height: 150vh;
+
+        .sector-uno{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+        height: 50vh;
+        
+
+            .mate{
+                display: grid;
+            }
+        }
+        .sector-dos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+        height: 50vh;
+        gap: 3rem;
+
+            .sets{
+                display: grid;
+            }
+        }
+         .footer{
+            height: 50vh;
+         }
+    
+    }
+    .main-cuidados{
+
+        height: 50vh;
+
+        .cuidados{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            
+            .curado{
+                ol{
+                    li{
+                        padding-left: 5rem;
+                    }
+                }
+            }
+            .curado-dos{
+                ul{
+                    li{
+                        padding-left: 5rem;
+                    }
+                }
+            }
+        }
+       
+
+    }
+
+    .main-cuidados .cuidados .curado ol li{
+       padding-left: 5rem;
+
+    }
+    .main-cuidados .cuidados .curado-dos ul li{
+       padding-left: 5rem;
+    }
+    .main-informacion{
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+    }
+    
+    .main-quienes-somos{
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    
+    
+}   
