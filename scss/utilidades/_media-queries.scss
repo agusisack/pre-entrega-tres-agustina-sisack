@@ -22,13 +22,12 @@
 
 
     .main-productos{
-    height: 300vh;
+    height: 420vh;
 
         .sector-uno{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         align-items: start;
-        height: 100vh;
+        height: 200vh;
         
 
             .mate{
@@ -37,9 +36,8 @@
         }
         .sector-dos{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         align-items: start;
-        height: 100vh;
+        height: 200vh;
         gap: 3rem;
 
             .sets{
