@@ -7,6 +7,13 @@
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
   font-weight: 600;
@@ -15,6 +22,13 @@
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 .main-cuidados {
   margin: 3rem 1rem 2rem 1rem;
@@ -34,6 +48,13 @@
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 .main-informacion {
   margin: 2rem 0rem 5rem 3rem;
@@ -63,6 +84,13 @@
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 @media screen and (min-width: 600px) {
   main {
     height: 100vh; }
@@ -73,19 +101,17 @@
     main .container-dos {
       display: grid; }
   .main-productos {
-    height: 300vh; }
+    height: 420vh; }
     .main-productos .sector-uno {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh; }
+      height: 200vh; }
       .main-productos .sector-uno .mate {
         display: grid; }
     .main-productos .sector-dos {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh;
+      height: 200vh;
       gap: 3rem; }
       .main-productos .sector-dos .sets {
         display: grid; }
@@ -187,7 +213,6 @@ body {
       padding-top: 1rem;
       margin-top: auto; }
     body header .menu {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align: center;
       font-size: 1.5rem; }
       body header .menu .submenu .logo {
@@ -211,10 +236,13 @@ main {
       display: none; }
   main .container-dos {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0rem 2rem 0rem 2rem; }
     main .container-dos img {
       object-fit: cover;
-      padding: 2rem 2rem 3rem 2rem; }
+      height: 100%;
+      width: 100%;
+      padding: 3rem 0rem 0rem 0rem; }
 
 footer {
   background-color: #b9a7a7;
@@ -249,8 +277,15 @@ footer {
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 .main-productos {
-  height: 400vh;
+  height: 390vh;
   display: grid; }
   .main-productos .titulo-uno {
     text-align: center; }
@@ -262,8 +297,7 @@ footer {
       .main-productos .sector-uno .mate .imagen {
         display: grid;
         justify-items: center;
-        align-items: center;
-        transition: 0.5; }
+        align-items: center; }
         .main-productos .sector-uno .mate .imagen img {
           object-fit: cover;
           border-radius: 10px;
@@ -271,12 +305,6 @@ footer {
         .main-productos .sector-uno .mate .imagen img:hover {
           transition: 0.5s;
           transform: scale(1.1); }
-    .main-productos .sector-uno div p {
-      margin: 1rem 3rem 1rem 3rem;
-      justify-self: center;
-      align-self: center;
-      font-weight: 600;
-      font-size: 1.5rem; }
   .main-productos .titulo-dos {
     text-align: center; }
   .main-productos .sector-dos {
@@ -295,12 +323,6 @@ footer {
         .main-productos .sector-dos .sets .imagen img:hover {
           transition: 0.5s;
           transform: scale(1.1); }
-    .main-productos .sector-dos div p {
-      margin: 1rem 3rem 1rem 3rem;
-      justify-self: center;
-      align-self: center;
-      font-weight: 600;
-      font-size: 1.5rem; }
 
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
@@ -310,6 +332,13 @@ footer {
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 .main-quienes-somos {
   height: 100vh;
@@ -350,19 +379,17 @@ footer {
     main .container-dos {
       display: grid; }
   .main-productos {
-    height: 300vh; }
+    height: 420vh; }
     .main-productos .sector-uno {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh; }
+      height: 200vh; }
       .main-productos .sector-uno .mate {
         display: grid; }
     .main-productos .sector-dos {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh;
+      height: 200vh;
       gap: 3rem; }
       .main-productos .sector-dos .sets {
         display: grid; }

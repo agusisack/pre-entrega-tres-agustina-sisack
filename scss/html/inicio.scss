@@ -23,7 +23,7 @@ body{
         }
 
         .menu{
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
             text-align: center;
             font-size: 1.5rem;
            
@@ -65,9 +65,9 @@ main{
     }
 
     .container-dos{
-         display: flex;
-         justify-content: center;
-         margin: 0rem 2rem 0rem 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0rem 2rem 0rem 2rem;
         
          img{
             object-fit: cover;
@@ -78,6 +78,7 @@ main{
         
     }
 }
+
 footer{
     background-color: $color-secundario;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
